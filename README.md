@@ -57,10 +57,12 @@ Uses an open-source API provided by [weatherapi.com](https://www.weatherapi.com/
 To fetch weather data, you need an API key from a weather service provider. 
 
 1. **Obtain an API key** from your chosen weather service provider.
-2. **Add the API key** to `lib/config/config.dart`:
+2. **Create the config file** `weather_app/config/app_config.json` containing:
 
-   ```dart
-   const String apiKey = 'YOUR_API_KEY';
+   ```json
+   {
+    "API_KEY": "API_KEY"
+   }
    ```
 
 ## Contact
