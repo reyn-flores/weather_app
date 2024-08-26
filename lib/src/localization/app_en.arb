@@ -1,0 +1,7 @@
+{
+  "appTitle": "weather_app",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "weatherReport": "Expect {condition} with a high of {maxTemp}°C and a low of {minTemp}°C. There's an {dailyChanceOfRain} chance of rain with {totalPrecipitation}(in)"
+}
